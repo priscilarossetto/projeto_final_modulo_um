@@ -1,0 +1,57 @@
+
+#primeira {
+    background-image: url("https://s1.1zoom.me/b5760/257/Forests_Bridges_Jungle_Moss_541923_1920x1080.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#segunda {
+    background-image: url("https://data.1freewallpapers.com/download/forest-path-covered-by-dry-autumn-leaves-and-sunbeam-through-trees-4k-nature-2048x1152.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#terceira {
+    background-image: url("https://wallpapersfull.com/wallpapers/2019/riacho-na-floresta-wallpaper-17545.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#final {
+    background-image: url("http://www.osmais.com/wallpapers/201309/cabana-floresta-wallpaper-1280x720.jpg");
+}
+
+.resumo, .container {
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    margin: 20px;
+    padding: 5px;
+    background: #8b0000;
+}
+
+.botão {
+    display: flex;
+    justify-content: center;
+}
+
+.botão button {
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #4682b4;
+    border-color: whitesmoke;
+}

@@ -1,0 +1,57 @@
+
+#primeira {
+    background-image: url("https://cdn.pixabay.com/photo/2016/08/03/09/48/cave-1566205_960_720.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#segunda {
+    background-image: url("https://p0.pikist.com/photos/666/874/stone-forest-nature-landscape-stone-formation-rock.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#terceira {
+    background-image: url("https://a-static.besthdwallpaper.com/arvore-grande-na-floresta-papel-de-parede-2560x1440-10540_51.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#final {
+    background-image: url("http://www.osmais.com/wallpapers/201309/cabana-floresta-wallpaper-1280x720.jpg");
+}
+
+.resumo, .container {
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    margin: 20px;
+    padding: 5px;
+    background: #8b0000;
+}
+
+.botão {
+    display: flex;
+    justify-content: center;
+}
+
+.botão button {
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #4682b4;
+    border-color: whitesmoke;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo Onde está o Stan?</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./menu.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+One&family=Montserrat:wght@300&family=Roboto:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Mochiy+Pop+One&family=Montserrat:wght@300&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <script src="./index.js"></script>
+
+        <main>
+            <header class="resumo">
+                <p>Stan foi raptado e não temos ideia do seu paradeiro!</p>
+                <p>Mas, algo me diz que ele está na floresta.</p>
+                <p>A floresta é um lugar com muitas armadilhas ocultas.</p>
+                <p>Vamos resgatar nosso amigo?<br></p>
+                <br>
+                <h1>Escolha seu personagem:</h1>
+            </header>
+            
+            <ul class="personagens">
+                <li>
+                    <p>Personalidade: Inseguro</p>
+                    <p>Vantagem: Prudente</p>
+                    <br>
+                    <img id="primeiro" src="./Imagens/kenny_escolha_um.png">
+                    <br>
+                    <button onclick="escolherKenny()"><h3>Kenny</h3></button>
+                </li>
+
+                <li>
+                    <p>Personalidade: Corajosa</p>
+                    <p>Vantagem: Curiosa</p>
+                    <br>
+                    <img id="segundo" src="./Imagens/wendy_escolha_dois.png">
+                    <br>
+                    <button onclick="escolherWendy()"><h3>Wendy</h3></button>
+                </li>
+
+                <li>
+                    <p>Personalidade: Desbravador</p>
+                    <p>Vantagem: Ousado</p>
+                    <br>
+                    <img id="terceiro" src="./Imagens/cartman_escolha_tres.png">
+                    <br>
+                    <button onclick="escolherCartman()"><h3>Eric Cartman</h3></button>
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>
